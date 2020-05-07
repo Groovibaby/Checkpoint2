@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Poppins', 'Comfortaa', Arial, Helvetica, sans-serif;
+    --bg-color: #E3FDFF;
+    --nav: #FFF;
+    --button: #F4BA19;
+    --button-hover: #C59205;
+    --bkg-footer:#434343;
+}
+
+h2 {
+    text-align: center;
+}
+
+.container-fluid {
+    margin: 0px !important;
+    padding: 0px !important;
+    background-color: #EDEEF3;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* HEADER */
+
+
+
+/* CONTENT */
+
+
+/* CARDS */
+
+.Card {
+    border-bottom: 2px solid rgb(230, 224, 224);
+    margin: 15px 0px;
+}
+
+.InfoUp {
+    display: flex;
+    flex-direction: row;
+}
+
+.IdItem {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-weight: 700;
+    margin: 50px auto 30px auto;
+}
+
+h3 {
+    font-weight: 700;
+}
+
+/* BUTTONS */
+
+.buttons {
+    text-align: right;
+    margin-left: 10px;
+}
+
+.ButtonsFilter {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+/* IMAGE */
+
+.img-round {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.ImgPosition {
+    display: flex;
+    justify-content: center;
+}
+
+.ScreenSchot {
+    width: 100%;
+    margin: 15px auto;
+}
+
+.ScreenShots {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 992px) {
+    .InfoUp {
+        flex-direction: column !important;
+        margin-bottom: 15px;
+    }
+    
+}
